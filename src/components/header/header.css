@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-family: 'Pacifico', cursive;
+  color: #18B418;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.fullscreen-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #444;
+}
+
+.fullscreen-button:hover {
+  color: black;
+}
